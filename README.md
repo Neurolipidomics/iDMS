@@ -52,7 +52,7 @@ If opening the Jupyter notebooks from Terminal, users first need to start Jupyte
 
 **Command Prompt on Windows** or **Terminal on macOS/Linux**
 ```
-jupyrer lab
+jupyter lab
 ```
 
 JupyterLab will open its local server on a web browser. On the web browserm navigate to your working folder and start iDMS module notebooks. Leave the terminal window opens throughout the entire time using iDMS.
