@@ -55,7 +55,7 @@ If opening the Jupyter notebooks from Terminal, users first need to start Jupyte
 jupyter lab
 ```
 
-JupyterLab will open its local server on a web browser. On the web browserm navigate to your working folder and start iDMS module notebooks. Leave the terminal window opens throughout the entire time using iDMS.
+JupyterLab will open its local server on a web browser. On the web browser, navigate to your working folder and start iDMS module notebooks. Leave the terminal window opens throughout the entire time using iDMS.
 
 # Bug Report:
 For bug report, please contact Dr. Steffany Bennett at SteffanyAnn.Bennett@uottawa.ca and Thao Nguyen-Tran at tnguy224@uottawa.ca. Please also send an example dataset which did not run successfully on iDMS.
