@@ -6,6 +6,8 @@ iDMS is an algorithm designed to predict instrumental parameter on a Differentia
 ## Installation
 iDMS contains two modules, written in Python and can be executed as a Python script using a Pythin IDE, or from the provided Jupyter Notebook. iDMS requires python version 3.12.7. All packages and libraries required will be installed once the modules are executed.
 
+Please install Python 3.12.7 from the following [link](https://www.python.org/downloads/release/python-3127/).
+
 Users advised to create a folder containing both modules of iDMS as well as the required input files. Templates for input files are provided below with guidance steps.
 
 ### Setup JupyterLab
