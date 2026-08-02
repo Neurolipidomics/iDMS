@@ -54,14 +54,14 @@ Sample Training Dataset is provided for a quick start of running iDMS. A .csv fi
 
 Please use these two files when testing Module 1_Parametric Modelling of iDMS.
 
-For Module 2_iDMS Module of iDMS, user needs to provide a list of lipids user wishes iMS to predict for. Please use the provided file Predlist_Lipids.csv in folder "Input Files Template" to enter the identity of the lipids of interest. Identity needs to be entered in this format **chainlength:unsaturationUnit**. For example, if user wishes to predict for the separation of the glycosphingolipid isomers Glc/GalCer(d18:1/15:1), please enter **15:1**. Note that Sample Training Dataset contains lipid species of 0 to 31 carbon in chain-length, it is reasonable to ask for a prediction of lipids with chain length lie within this range. Similarly, Sample Training Dataset contains lipid species with 0 and 1 unit of unsaturation, hence, it is reasonable to only ask for prediction of either saturated or monounsaturated lipids.
+For Module 2_iDMS, user needs to provide a list of lipids user wishes iMS to predict for. Please use the provided file Predlist_Lipids.csv in folder "Input Files Template" to enter the identity of the lipids of interest. Identity needs to be entered in this format **chainlength:unsaturationUnit**. For example, if user wishes to predict for the separation of the glycosphingolipid isomers Glc/GalCer(d18:1/15:1), please enter **15:1**. Note that Sample Training Dataset contains lipid species of 0 to 31 carbon in chain-length, it is reasonable to ask for a prediction of lipids with chain length lie within this range. Similarly, Sample Training Dataset contains lipid species with 0 and 1 unit of unsaturation, hence, it is reasonable to only ask for prediction of either saturated or monounsaturated lipids.
 
 NOTE : Please edit the file "Predlist_Lipids.csv" using a text editor such as Notepad (on a Windows) or TextEdit (on a MAC) and NOT Microsoft Excel.
 
 Please use this file when prompted for during testing Module 2 of iDMS.
 
 # Bug Report:
-For bug report, please contact Dr. Steffany Bennett at SteffanyAnn.Bennett@uottawa.ca and Thao Nguyen-Tran at tnguy224@uottawa.ca. Please also send an example dataset which did not run successfully on iDMS.
+For bug report, please contact Dr. Steffany Bennett at SteffanyAnn.Bennett@uottawa.ca and Thao Nguyen-Tran at tnguy32@uottawa.ca. Please also send an example dataset which did not run successfully on iDMS.
 
 # Citing
 Nguyen-Tran, T., Shi, XX., Organ, M.G., Lavallée-Adam, M., Perkins, T. J. & Bennett, S.A.L. (2025). Intelligent differential ion mobility spectrometry (iDMS) for lipidomics: A machine learning algorithm that predicts the optimal space -resolved ion mobility parameters for isomeric glycosphingolipids 
