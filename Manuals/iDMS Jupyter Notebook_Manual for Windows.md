@@ -4,6 +4,10 @@
 
 ## Install JupyterLab as a terminal-launched application
 - On Windows, start Command Prompt by searching for 'cmd'.
+
+>[!NOTE]
+>DO NOT CLOSE Command Prompt window until you have finished using iDMS.
+  
 - Type: `pip install jupyterlab`
 
 ## Create a virtual environment
@@ -54,3 +58,10 @@ similar to what you see in a regular Windows Explorer interface. Use this to nav
 >Once finished, user must select: Kernel > Restart Kernel and Clear Outputs of All Cells...\
 >Then, save the notebook by: File > Save
 - Close Module 2 notebook.
+- Close the Jupyter Lab web browser.
+
+## Deactivate virtual environment
+- On Command Prompt, type: `deactivate`
+- Type to close command prompt: `exit`
+
+
