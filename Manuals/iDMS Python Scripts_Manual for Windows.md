@@ -14,6 +14,7 @@
   - Enter folder "iDMS": `cd iDMS`
   - Check current active Python version on computer: `python --version`
 
+### *(If you have already had a virtual environment, you can skip this step and move to the next step to "Activate" virtual environment.)*
 - Create a virtual environment with Python 3.12.10:\
   `py -3.12 -m venv py3-12-10`
 
