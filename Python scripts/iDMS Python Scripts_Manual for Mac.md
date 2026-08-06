@@ -31,14 +31,14 @@ Your command line will now appear with the virtual environment name at the front
 
 ## Execute Module 1 of iDMS
 - In the same Command Prompt window, execute:\
-  `python3 Module 1_Parametric Modelling.py`
+  `python3 Module\ 1_Parametric\ Modelling.py`
 - Follow the instruction in pop-up windows when prompted.
   
 Once finished, moved on to Module 2.
 
 ## Execute Module 2 of iDMS
 - In the same Command Prompt window, execute:\
-  `python3 Module 2_iDMS.py`
+  `python3 Module\ 2_iDMS.py`
 - Follow the instruction in pop-up windows when prompted.  
 
 ## Deactivate virtual environment
