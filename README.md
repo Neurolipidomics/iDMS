@@ -64,6 +64,6 @@ Please use this file when prompted for during testing Module 2 of iDMS.
 For bug report, please contact Dr. Steffany Bennett at SteffanyAnn.Bennett@uottawa.ca and Thao Nguyen-Tran at tnguy32@uottawa.ca. Please also send an example dataset which did not run successfully on iDMS.
 
 # Citing
-Nguyen-Tran, T., Shi, XX., Organ, M.G., Lavallée-Adam, M., Perkins, T. J. & Bennett, S.A.L. (2025). Intelligent differential ion mobility spectrometry (iDMS) for lipidomics: A machine learning algorithm that predicts the optimal space -resolved ion mobility parameters for isomeric glycosphingolipids 
+Nguyen-Tran, T., Shi, XX., Hashimoto-Roth, E., Organ, M.G., Lavallée-Adam, M., Perkins, T. J. & Bennett, S.A.L. (2025). Intelligent differential ion mobility spectrometry (iDMS) for lipidomics: A machine learning algorithm that predicts the optimal space -resolved ion mobility parameters for isomeric glycosphingolipids 
 
 # iDMS
