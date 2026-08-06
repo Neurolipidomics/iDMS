@@ -22,7 +22,7 @@
 
 ### *(If you have already had a virtual environment, you can skip this step and move to the next step to "Activate" virtual environment.)*
 - Create a virtual environment with Python 3.12.10:\
-  `py -3.12 -m venv py3-12-10`
+  `python3.12 -m venv py3-12-10`
 
 - Activate the virtual environment just created:\
   `source py3-12-10/bin/activate`
