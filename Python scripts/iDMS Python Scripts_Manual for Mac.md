@@ -44,3 +44,4 @@ Once finished, moved on to Module 2.
 ## Deactivate virtual environment
 - On Command Prompt, type: `deactivate`
 - Type to close command prompt: `exit`
+- Press: `Command + Q`
