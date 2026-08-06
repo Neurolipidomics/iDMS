@@ -27,7 +27,8 @@ Your command line will now appear with the virtual environment name at the front
 `((py3-12-10)) Neurolipidomics@User iDMS %`
 
 - Install required packages and libraries for iDMS from *requirements.txt* (Please use the requirements.txt downloaded from iDMS/Python scripts):\
-  `cat requirements.txt | xargs -n 1 pip install`
+  - On an Apple-chip MAC, type: `cat requirements.txt | xargs -n 1 pip install`
+  - On an Intel-chop MAC, type: `while read requirement; do pip install "$requirement" || true; done < requirements.txt`
 
 ## Execute Module 1 of iDMS
 - In the same Command Prompt window, execute:\
