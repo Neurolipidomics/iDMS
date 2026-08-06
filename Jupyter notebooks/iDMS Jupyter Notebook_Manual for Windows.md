@@ -38,6 +38,8 @@ Your command line will now appear with the virtual environment name at the front
 - Start Jupyter lab:\
   `jupyter lab`
   
+If you have multiple kernels set up for jupyter lab on your computer, you will be prompted to select the kernel to start. Make sure you select kernel "Python 3.12.10".
+
 
 ## Execute Module 1 of iDMS
 - A web browser will open with the Jupyter Lab interface. On the left hand-side, the display will show the directory you currently are in. This directory display is\
