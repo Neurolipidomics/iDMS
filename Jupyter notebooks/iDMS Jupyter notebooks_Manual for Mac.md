@@ -61,9 +61,12 @@ similar to what you see in a regular Windows Explorer interface. Use this to nav
 >Once finished, user must select: Kernel > Restart Kernel and Clear Outputs of All Cells...\
 >Then, save the notebook by: File > Save
 - Close Module 2 notebook.
-- Close the Jupyter Lab web browser.
+- To close the JupyterLab web browser, go to File > Shut down.
+- Select "Shut Down" when prompted for confirmation.
+- Close the JupyterLab browswer.
 
 ## Deactivate virtual environment
-- On Command Prompt, type: `deactivate`
+- On Terminal, type: `deactivate`
 - Type to close command prompt: `exit`
+- Press: `command + Q`
 
