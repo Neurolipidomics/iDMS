@@ -24,7 +24,7 @@
 Your command line will now appear with the virtual environment name at the front, enclosed in a pair of round brackets:\
 `(py3-12-10) C:\Users\neuro\Documents\iDMS>`
 
-- Install required packages and libraries for iDMS from *requirements.txt* (Please use the requirements.txt downloaded from iDMS/Virtual environment setup/Python):\
+- Install required packages and libraries for iDMS from *requirements.txt* (Please use the requirements.txt downloaded from iDMS/Python scripts):\
   `for /F "tokens=*" %i in (requirements.txt) do pip install %i`
 
 ## Execute Module 1 of iDMS
