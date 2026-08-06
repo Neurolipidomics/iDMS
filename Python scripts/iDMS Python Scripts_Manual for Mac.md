@@ -26,7 +26,7 @@
 Your command line will now appear with the virtual environment name at the front, enclosed in a pair of round brackets, similar to below:\
 `((py3-12-10)) Neurolipidomics@User iDMS %`
 
-- Install required packages and libraries for iDMS from *requirements.txt* (Please use the requirements.txt downloaded from iDMS/Python scripts):\
+- Install required packages and libraries for iDMS from *requirements.txt* (Please use the requirements.txt downloaded from iDMS/Python scripts):
   - On an Apple-chip MAC, type: `cat requirements.txt | xargs -n 1 pip install`
   - On an Intel-chop MAC, type: `while read requirement; do pip install "$requirement" || true; done < requirements.txt`
 
