@@ -2,8 +2,6 @@
 iDMS is an algorithm designed to predict instrumental parameters on a Differential Mobility Spectrometer (DMS) that are required to separate a pair of monoglycosphingolipid epimers. The predicted instrumental parameter is Compensation Voltage (CoV) at any specified Separation Voltage (SV). The algorithm requires inputs of features associated to the lipid structure and the SV at which CoV is predicted for.
 
 # Setup
-
-## Installation
 iDMS contains two modules, written in Python and can be executed as a Python script using a Python IDE, or from the provided Jupyter Notebook. iDMS requires python version 3.12. All packages and libraries required will be installed once the modules are executed.
 
 Please install Python 3.12.10, which is the last version of Python 3.12 which was maintained with security. Download from the following for your appropriate operating system [link](https://www.python.org/downloads/release/python-31210/).
@@ -22,6 +20,10 @@ For Module 2_iDMS, user needs to provide a list of lipids user wishes iMS to pre
 NOTE : Please edit the file **Prediction_template.csv** using a text editor such as Notepad (on a Windows) or TextEdit (on a MAC) and NOT Microsoft Excel.
 
 Please use this file when prompted for during testing Module 2_iDMS.
+
+# iDMS Desktop
+iDMS Desktop is a desktop application for iDMS is currently available only for Mac computers with Apple Silicon chips. A version of iDMS Desktop for Windows operating systems is under development.
+Users can download iDMS Desktop as a .dmg at ...
 
 # Bug Report:
 For bug report, please contact Dr. Steffany Bennett at SteffanyAnn.Bennett@uottawa.ca and Thao Nguyen-Tran at tnguy32@uottawa.ca. Please also send an example dataset which did not run successfully on iDMS.
