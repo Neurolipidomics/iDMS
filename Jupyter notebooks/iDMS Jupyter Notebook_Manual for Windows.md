@@ -13,10 +13,11 @@
 ## Create a virtual environment
 
 - In Command Prompt, create a project folder for the project you are working on. For example, create project folder 'iDMS' on 'Documents' with the following commands:
-  - Navigate to folder Desktop on your computer: `cd  Documents`
+  - Navigate to folder Documents on your computer: `cd  Documents`
   - Make new folder called "iDMS": `mkdir "iDMS"`
   - Enter folder "iDMS": `cd iDMS`
-  - Check current active Python version on computer: `python --version`
+
+- Download ALL files in the folder "Jupyter notebooks" of github, including file in subfolders "Prediction template" and "Training dataset template". Place them ALL in folder "iDMS" just made above. 
 
 ### *(If you have already had a virtual environment, you can skip this step and move to the next step to "Activate" virtual environment.)*
 - Create a virtual environment with Python 3.12.10:\
