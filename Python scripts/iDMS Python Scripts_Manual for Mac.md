@@ -31,18 +31,18 @@ Your command line will now appear with the virtual environment name at the front
   - On an Intel-chip MAC, type: `while read requirement; do pip install "$requirement" || true; done < requirements.txt`
 
 ## Execute Module 1 of iDMS
-- In the same Command Prompt window, execute:\
+- In the same Terminal window, execute:\
   `python3 Module\ 1_Parametric\ Modelling.py`
 - Follow the instruction in pop-up windows when prompted.
   
 Once finished, moved on to Module 2.
 
 ## Execute Module 2 of iDMS
-- In the same Command Prompt window, execute:\
+- In the same Terminal window, execute:\
   `python3 Module\ 2_iDMS.py`
 - Follow the instruction in pop-up windows when prompted.  
 
 ## Deactivate virtual environment
-- On Command Prompt, type: `deactivate`
-- Type to close command prompt: `exit`
+- On Terminal, type: `deactivate`
+- Type to close Terminal: `exit`
 - Press: `Command + Q`
