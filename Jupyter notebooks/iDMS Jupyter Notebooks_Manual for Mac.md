@@ -56,8 +56,8 @@ similar to what you see in a regular Windows Explorer interface. Use this to nav
 
 ## Execute Module 2 of iDMS
 - On the left hand-side, choose from the diretory to open: **Module 2_iDMS.ipynb**
-- Execute the notebook by running each cell, one at a time.
-- Follow the instruction in pop-up windows when prompted.
+- Execute the notebook by running all cells at once. Please do this by go to: Run > Restart Kernel and Run All
+
 >[!CAUTION]
 >Once finished, user must select: Kernel > Restart Kernel and Clear Outputs of All Cells...\
 >Then, save the notebook by: File > Save
