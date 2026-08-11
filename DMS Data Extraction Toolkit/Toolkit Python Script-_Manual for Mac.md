@@ -24,8 +24,8 @@ If not, follow the steps below (similar to in iDMS Python Scripts Manual) to set
  
 - From folder "DMS Data Extraction Toolkit" of github, pick the appropriate folder to process your DMS files (either as .jdx or as .mzml files), download:
   - The Python script for extraction toolkit: *DMSDataExtractionToolkit_fromJDX.py* or *DMSDataExtractionToolkit_fromMZML.py*
-  - File *DataInfo_template.csv*
-- From folder "Jupyter notebooks" of github, download file *"requirements.txt".*
+  - File *DataInfo.csv*
+- From folder "Python scripts" of github, download file *"requirements.txt".*
 
 - Place them all in folder "iDMS" just made above. 
 
