@@ -60,8 +60,7 @@ If you have multiple kernels set up for jupyter lab on your computer, you will b
 - Data entered in columns "isomer" and "sphingoidBackbone" must be text (string), while data entered in columns "chainLength" and "unsaturationUnit" must be numeric.
 
 ## Execute DMS Data Extraction Toolkit Jupyter notebook
-- A web browser will open with the Jupyter Lab interface. On the left hand-side, the display will show the directory you currently are in. This directory display is
-similar to what you see in a regular Windows Explorer interface. Use this to navigate to where the notebook and your data is.
+- A web browser will open with the Jupyter Lab interface. On the left hand-side, the display will show the directory you currently are in. This directory display is similar to what you see in a regular Finder interface on your MAC. Use this to navigate to where the notebook and your data is.
 - Choose to open: *DMSDataExtractionToolkit_fromJDX.ipynb* or *DMSDataExtractionToolkit_fromMZML.ipynb*
 - Execute the notebook by running each cell, one at a time.
 - Follow the instruction in pop-up windows when prompted.
