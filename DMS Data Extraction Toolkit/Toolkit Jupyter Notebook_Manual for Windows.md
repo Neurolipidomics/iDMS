@@ -23,7 +23,7 @@ If not, follow the steps below (similar to in iDMS Jupyter Notebook Manual) to s
  
 - From folder "DMS Data Extraction Toolkit" of github, pick the appropriate folder to process your DMS files (either as .jdx or as .mzml files), download:
   - The Jupyter notebook for extraction toolkit: *DMSDataExtractionToolkit_fromJDX.ipynb* or *DMSDataExtractionToolkit_fromMZML.ipynb*
-  - File *DataInfo_template.csv*
+  - File *DataInfo.csv*
 - From folder "Jupyter notebooks" of github, download file *"requirements.txt".*
 
 - Place them all in folder "iDMS" just made above. 
