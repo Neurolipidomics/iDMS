@@ -92,7 +92,7 @@ def FileCompiler (file_Dir):
     df_total = pd.DataFrame()
     for dirnames in os.listdir(file_Dir):
         subfolderpath = os.path.join(file_Dir, dirnames)
-        filtered_DataInfoFile = DataInfoFile[DataInfoFile['Files Directory'].str.contains(dirnames, na=False)]
+        filtered_DataInfoFile = DataInfoFile[DataInfoFile['Data Folder Directory'].str.contains(dirnames, na=False)]
         list_DataInfoFile = filtered_DataInfoFile.to_numpy().flatten().tolist()
             
         if list_DataInfoFile:
