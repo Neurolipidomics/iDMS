@@ -1,7 +1,3 @@
-*DMS Data Extraction Toolkit Python Script should run in the same virtual environment as set up for iDMS Python Scripts.\
-If you have already set up virtual environment and installed required libraries and packages for iDMS, you can simply activate that virtual environment and start running the Python script for DMS Data Extraction.
-If not, follow the steps below (similar to in iDMS Python Scripts Manual) to set up virtual environment.*
-
 ## Install Python 3.12.10
 - Click [here](https://www.python.org/ftp/python/3.12.10/python-3.12.10-macos11.pkg) to download Python 3.12.10 for Mac (64x).
 - Once downloaded, install on your computer.
