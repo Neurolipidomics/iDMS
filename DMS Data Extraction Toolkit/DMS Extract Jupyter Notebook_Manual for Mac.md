@@ -22,10 +22,10 @@ If not, follow the steps below (similar to in iDMS Jupyter Notebook Manual) to s
   - Enter folder "iDMS": `cd iDMS`
   - Check current active Python version on computer: `python3 --version`
  
-- From folder "DMS Data Extraction Toolkit" of github, pick the appropriate folder to process your DMS files (either as .jdx or as .mzml files), download:
-  - The Jupyter notebook for extraction toolkit: *DMSDataExtractionToolkit_fromJDX.ipynb* or *DMSDataExtractionToolkit_fromMZML.ipynb*
-  - File *DataInfo.csv*
-- From folder "Jupyter notebooks" of github, download file *"requirements.txt".*
+- From folder "DMS Data Extraction Toolkit" of github, download:
+  - *requirements.txt*
+  - Either: "From .jdx"/*DMSDataExtractionToolkit_fromJDX.ipynb* or "From .mzml"/*DMSDataExtractionToolkit_fromMZML.ipynb*
+  - *DataInfo.csv*
 
 - Place them all in folder "iDMS" just made above. 
 
@@ -39,7 +39,7 @@ If not, follow the steps below (similar to in iDMS Jupyter Notebook Manual) to s
 Your command line will now appear with the virtual environment name at the front, enclosed in a pair of round brackets:\
 `((py3-12-10)) Neurolipidomics@User iDMS %`
 
-- Install required packages and libraries for iDMS from *requirements.txt* (Please use the requirements.txt downloaded from iDMS/Jupyter notebooks):
+- Install required packages and libraries for iDMS from *requirements.txt*:
   - On an Apple-chip MAC, type: `cat requirements.txt | xargs -n 1 pip install`
   - On an Intel-chip MAC, type: `while read requirement; do pip install "$requirement" || true; done < requirements.txt`
 
