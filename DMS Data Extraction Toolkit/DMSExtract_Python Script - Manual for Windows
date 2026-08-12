@@ -16,7 +16,7 @@
 
 - From folder "DMS Data Extraction Toolkit" of github, download:
   - *requirements.txt*
-  - Either: "From .jdx"/*DMSDataExtractionToolkit_fromJDX.ipynb* or "From .mzml"/*DMSDataExtractionToolkit_fromMZML.ipynb*
+  - Either: "From .jdx"/*DMSDataExtractionToolkit_fromJDX.py* or "From .mzml"/*DMSDataExtractionToolkit_fromMZML.py*
   - *DataInfo.csv*
 
 - Place them all in folder "iDMS" just made above.
@@ -31,7 +31,7 @@
 Your command line will now appear with the virtual environment name at the front, enclosed in a pair of round brackets:\
 `(py3-12-10) C:\Users\neuro\Documents\iDMS>`
 
-- Install required packages and libraries for iDMS from *requirements.txt* (Please use the requirements.txt downloaded from iDMS/Python scripts):\
+- Install required packages and libraries for iDMS from *requirements.txt*:\
   `for /F "tokens=*" %i in (requirements.txt) do pip install %i`
 
 ## Fill in *DataInfo_template.csv* with information related to your data
