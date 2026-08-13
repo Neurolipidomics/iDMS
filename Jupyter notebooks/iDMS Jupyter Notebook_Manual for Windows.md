@@ -43,8 +43,7 @@ If you have multiple kernels set up for Jupyter lab on your computer, you will b
 
 
 ## Execute Module 1 of iDMS
-- A web browser will open with the Jupyter Lab interface. On the left hand-side, the display will show the directory you currently are in. This directory display is\
-similar to what you see in a regular Windows Explorer interface. Navigate to where the iDMS Jupyter Notebooks are stored.
+- A web browser will open with the Jupyter Lab interface. On the left hand-side, the display will show the directory you currently are in. This directory display is similar to what you see in a regular Windows Explorer interface. Navigate to where the iDMS Jupyter Notebooks are stored.
 - Choose to open: **Module 1_Parametric Modelling Module.ipynb**
 - Execute the notebook by running each cell, one at a time.  
 - Follow the instruction in pop-up windows when prompted.
