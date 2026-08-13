@@ -8,22 +8,22 @@
 >[!NOTE]
 >DO NOT CLOSE Command Prompt until you finish with iDMS. 
 
-- Create a project folder for the project you are working on. For example, create project folder 'iDMS' on 'Documents' with the following commands:
-  - Navigate to folder Desktop on your computer: `cd  Documents`
+- Create a project folder. For example, create the project folder 'iDMS' on 'Desktop' with the following commands:
+  - Navigate to folder Desktop on your computer: `cd  Desktop`
   - Make new folder called "iDMS": `mkdir "iDMS"`
   - Enter folder "iDMS": `cd iDMS`
   - Check current active Python version on computer: `python --version`
 
-- Download ALL files in the folder "Python scripts" of github, including file in subfolders "Prediction template" and "Training dataset template". Place them ALL in folder "iDMS" just made above.
+- Download ALL files in the github folder "Python scripts", including files in subfolders "Prediction template" and "Training dataset template". Place ALL in files/folders in your "iDMS" project folder.
 
-### *(If you have already had a virtual environment, you can skip this step and move to the next step to "Activate" virtual environment.)*
+### *(If you have already established a virtual environment, you can skip this step and move to the next step to "Activate" virtual environment.)*
 - Create a virtual environment with Python 3.12.10:\
   `py -3.12 -m venv py3-12-10`
 
 - Activate the virtual environment just created:\
   `py3-12-10\Scripts\activate`
 
-Your command line will now appear with the virtual environment name at the front, enclosed in a pair of round brackets:\
+Your command line will now appear with the virtual environment name at the front, enclosed by a pair of round brackets:\
 `(py3-12-10) C:\Users\neuro\Documents\iDMS>`
 
 - Install required packages and libraries for iDMS from *requirements.txt* (Please use the requirements.txt downloaded from iDMS/Python scripts):\
@@ -32,14 +32,14 @@ Your command line will now appear with the virtual environment name at the front
 ## Execute Module 1 of iDMS
 - In the same Command Prompt window, execute:\
   `python Module 1_Parametric Modelling.py`
-- Follow the instruction in pop-up windows when prompted.
+- Follow the instruction in the pop-up windows when prompted.
   
 Once finished, moved on to Module 2.
 
 ## Execute Module 2 of iDMS
 - In the same Command Prompt window, execute:\
   `python Module 2_iDMS.py`
-- Follow the instruction in pop-up windows when prompted.  
+- Follow the instruction in the pop-up windows when prompted.  
 
 ## Deactivate virtual environment
 - On Command Prompt, type: `deactivate`
