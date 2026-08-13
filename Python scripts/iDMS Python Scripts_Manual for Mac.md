@@ -8,39 +8,39 @@
 >[!NOTE]
 >DO NOT CLOSE Terminal until you finish with iDMS. 
 
-- Create a project folder for the project you are working on. For example, create project folder 'iDMS' on 'Desktop' with the following commands:
+- Create a project folder. For example, create the project folder 'iDMS' on 'Desktop' with the following commands:
   - Navigate to folder Desktop on your computer: `cd  Desktop`
   - Make new folder called "iDMS": `mkdir iDMS`
   - Enter folder "iDMS": `cd iDMS`
   - Check current active Python version on computer: `python3 --version`
  
-- Download ALL files in the folder "Python scripts" of github, including file in subfolders "Prediction template" and "Training dataset template". Place them ALL in folder "iDMS" just made above. 
+- Download ALL files in the github folder "Python scripts", including files in subfolders "Prediction template" and "Training dataset template". Place ALL in files/folders in your "iDMS" project folder. 
 
-### *(If you have already had a virtual environment, you can skip this step and move to the next step to "Activate" virtual environment.)*
+### *(If you have already established a virtual environment, you can skip this step and move to the next step to "Activate" virtual environment.)*
 - Create a virtual environment with Python 3.12.10:\
   `python3.12 -m venv py3-12-10`
 
 - Activate the virtual environment just created:\
   `source py3-12-10/bin/activate`
 
-Your command line will now appear with the virtual environment name at the front, enclosed in a pair of round brackets, similar to below:\
+Your command line will now appear with the virtual environment name at the front, enclosed in a pair of round brackets:\
 `((py3-12-10)) Neurolipidomics@User iDMS %`
 
 - Install required packages and libraries for iDMS from *requirements.txt* (Please use the requirements.txt downloaded from iDMS/Python scripts):
-  - On an Apple-chip MAC, type: `cat requirements.txt | xargs -n 1 pip install`
-  - On an Intel-chip MAC, type: `while read requirement; do pip install "$requirement" || true; done < requirements.txt`
+  - On aa Silicon-chip MAC, type: `cat requirements.txt | xargs -n 1 pip3 install`
+  - On an Intel-chip MAC, type: `while read requirement; do pip3 install "$requirement" || true; done < requirements.txt`
 
 ## Execute Module 1 of iDMS
 - In the same Terminal window, execute:\
   `python3 Module\ 1_Parametric\ Modelling.py`
-- Follow the instruction in pop-up windows when prompted.
+- Follow the instruction in the pop-up windows when prompted.
   
 Once finished, moved on to Module 2.
 
 ## Execute Module 2 of iDMS
 - In the same Terminal window, execute:\
   `python3 Module\ 2_iDMS.py`
-- Follow the instruction in pop-up windows when prompted.  
+- Follow the instruction in the pop-up windows when prompted.  
 
 ## Deactivate virtual environment
 - On Terminal, type: `deactivate`
