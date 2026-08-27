@@ -1,14 +1,14 @@
 # iDMS
-iDMS is an in silico supervised neural network model that learns the field asymmetric ion mobility spectrometry (FAIMS), also known as differential mobility mass spectrometry (DMS), ion mobility relationships between separation voltage (SV), compensation voltage (CoV) and the monoglycosphingolipid structural features of sugar headgroup, N-acyl chain length, and N-acyl degree of unsaturation. 
+iDMS is an in silico supervised neural network model that learns the field asymmetric (diffential) ion mobility spectrometry (FAIMS/DMS) relationships between separation voltage (SV), compensation voltage (CoV) and the monoglycosphingolipid structural features of sugar headgroup, N-acyl chain length, and N-acyl degree of unsaturation. 
 iDMS predicts the SV and CoV combinations capable of resolving any monoglycoceramide stereoisomer pair and can be trained using a dataset composed of empirically determined signal intensities for 12 or more stereoisomers (6 or more pairs of epimers) measured across a range of SVs and CoVs. It is recommendeded to acquire the training dataset using a CoV ramp step of 0.2 V.
 
 # Setup
-iDMS is implemented in two modules executed as two separate Python scripts using a Python IDE or from two Jupyter Notebooks. Please install Python 3.12.10, which is the last version of Python 3.12 which was maintained with security. Download [link](https://www.python.org/downloads/release/python-31210/) for your operating system.  All packages and libraries will be installed once the modules are executed.
+iDMS is implemented in two modules executed as two separate Python scripts using a Python IDE or from two Jupyter Notebooks. Please install Python 3.12.10, which is the last version of Python 3.12 which was maintained with security. [Download](https://www.python.org/downloads/release/python-31210/) for your operating system.  All packages and libraries will be installed once the modules are executed.
 
-To execute iDMS successfully, manuals are provided for the installation of Python or JupyterLab, setting up virtual environment, and installation of the required libraries and packages on both Mac and Windows operating system. Assembly module scripts and Jupyter Notebooks that automate the preprocessing of measured signal intensities from .wiff or other proprietary format after conversion to .jdx or .mzml format to accelerate user generation of their training datasets can be found at [link](https://github.com/neurolipidomics/DMSDataExtractionToolkit).
+To execute iDMS successfully, manuals are provided for the installation of Python or JupyterLab, setting up virtual environment, and installation of the required libraries and packages on both Mac and Windows operating system. Assembly module scripts and Jupyter Notebooks that automate the preprocessing of measured signal intensities from .wiff or other proprietary format after conversion to .jdx or .mzml format to accelerate user generation of their training datasets can be found [here](https://github.com/neurolipidomics/DMSDataExtractionToolkit).
 
 
-# Quick Start:
+# Quick Start
 Sample training dataset files are provided for a quick start of running iDMS.  These files also serve as templates for users to modify in the generation of their own platform-specific training datasets. A .csv file is provided for each set of Glycosphingolipid isomers: GalactosylCeramides (as isomer 1) and GlucosylCeramides (as isomer 2) with varying *N*-acyl chain lengths and either zero or one unit of unsaturation.  Sample data were obtained from experiments performed on a using a SCIEX SelexION® differential ion mobility device interfaced to a QTRAP 5500 triple quadrupole-linear ion trap mass spectrometer. 
 
 Please use these two files when testing Module 1_Parametric Modelling.
@@ -17,11 +17,7 @@ For Module 2_iDMS, users input a list of lipids for which they wish to predict r
 
 NOTE: Please edit the file **Prediction_template.csv** using a text editor such as Notepad (on a Windows) or TextEdit (on a MAC) and NOT in Microsoft Excel as the proprietary software will alter the format of the prediction list such that it will not function in iDMS.
 
-
-# iDMS Desktop
-iDMS Desktop is a desktop application for iDMS is currently available only for Mac computers with Apple Silicon chips. A version of iDMS Desktop for Apple intel chips and Windows operating systems is under development. Users can download iDMS Desktop as a .dmg at [link](https://www.neurolipidomics.com/idms.html).
-
-# Bug Report:
+# Bug Report
 For bug report, please contact Dr. Steffany Bennett at SteffanyAnn.Bennett@uottawa.ca and Thao Nguyen-Tran at tnguy32@uottawa.ca. Please also send an example dataset which did not run successfully on iDMS.
 
 # Citing
