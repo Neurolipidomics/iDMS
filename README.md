@@ -1,5 +1,5 @@
 # iDMS
-iDMS is an in silico supervised neural network model that learns the field asymmetric (diffential) ion mobility spectrometry (FAIMS/DMS) relationships between separation voltage (SV), compensation voltage (CoV) and the monoglycosphingolipid structural features of sugar headgroup, _N_-acyl chain length, and _N_-acyl degree of unsaturation. 
+iDMS is an in silico supervised neural network model that learns the field asymmetric (differential) ion mobility spectrometry (FAIMS/DMS) relationships between separation voltage (SV), compensation voltage (CoV) and the monoglycosphingolipid structural features of sugar headgroup, _N_-acyl chain length, and _N_-acyl degree of unsaturation. 
 iDMS predicts the SV and CoV combinations capable of resolving any monoglycoceramide stereoisomer pair and can be trained using a dataset composed of empirically determined signal intensities for 12 or more stereoisomers (6 or more pairs of epimers) measured across a range of SVs and CoVs. It is recommended to acquire the training dataset using a CoV ramp step of 0.2 V.
 
 # Setup
