@@ -18,9 +18,9 @@ For Module 2_iDMS, users input a list of lipids for which they wish to predict r
 NOTE: Please edit the file **Prediction_template.csv** using a text editor such as Notepad (on a Windows) or TextEdit (on a MAC) and NOT in Microsoft Excel as the proprietary software will alter the format of the prediction list such that it will not function in iDMS.
 
 # Bug Report
-For bug report, please contact Dr. Steffany Bennett at SteffanyAnn.Bennett@uottawa.ca and Thao Nguyen-Tran at tnguy32@uottawa.ca. Please also send an example dataset which did not run successfully on iDMS.
+For bug report, please contact Dr. Steffany Bennett and Thao Nguyen-Tran at ldomic@uottawa.ca. Please also send an example dataset which did not run successfully on iDMS.
 
 # Citing
-Nguyen-Tran, T., Shi, XX., Hashimoto-Roth, E., Organ, M.G., Lavallée-Adam, M., Perkins, T. J. & Bennett, S.A.L. (2026). Intelligent differential ion mobility spectrometry (iDMS) for lipidomics: A machine learning algorithm that predicts the optimal space -resolved ion mobility parameters for isomeric glycosphingolipids. 
+Nguyen-Tran, T., Shi, XX., Hashimoto-Roth, E., Organ, M.G., Lavallée-Adam, M., Perkins, T. J. & Bennett, S.A.L. (2026). Intelligent differential ion mobility spectrometry (iDMS) for lipidomics: A machine learning algorithm that predicts the optimal space -resolved ion mobility parameters for isomeric glycosphingolipids. [bioRxiv:2026.2008.2026.747394](https://www.biorxiv.org/content/10.64898/2026.08.26.747394v1) . 
 
 This repository is linked to [zenodo](https://zenodo.org/records/22214408), where you can find a DOI for the version you are using.
